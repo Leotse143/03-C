@@ -15,7 +15,7 @@ function ContadorClicks() {
     <div className="caldero">
       <h2>{contador}</h2>
       <button onClick={incrementar} className="clic">
-        Aumentar
+        Hacer Clic
       </button>
       <button onClick={restablecer} className="restablecer">
         Reiniciar
