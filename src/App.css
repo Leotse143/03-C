@@ -57,7 +57,12 @@ h3 {
     padding: 10px;
   }
 
-  button {
+  .clic {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    margin: 8px;
+  }
+  .restablecer {
     padding: 12px 24px;
     font-size: 1.2rem;
     margin: 8px;
