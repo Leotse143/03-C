@@ -52,3 +52,23 @@ h3 {
   border-color: rgb(110, 204, 98);
   border-radius: 5px;
 }
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    margin: 8px;
+  }
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
